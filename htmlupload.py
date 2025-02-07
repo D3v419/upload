@@ -31,4 +31,4 @@ def upload_file():
         return f"File {file.filename} berhasil diunggah ke {file_path}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+       app.run(host='0.0.0.0', port=443, debug=True)
